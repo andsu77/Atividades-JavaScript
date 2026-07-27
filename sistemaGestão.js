@@ -91,21 +91,7 @@ exibirHistorico () {
 
 
 
-//Conta Corrente
 
-class ContaCorrente extends ContaBancaria{
-
-    constructor(nome,saldoInicial,limite){
-super(nome);
-super(saldoInicial);
-this.limite = limite
-
-
-    }
-
-
-
-}
 
 
 const CCJ = new ContaBancaria("josé anderson",200);
